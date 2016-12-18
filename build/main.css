@@ -21758,6 +21758,11 @@ page-login .login-content {
   background: url("../assets/images/loc2.jpg") no-repeat center center fixed !important;
 }
 
+page-login .login-content .logo-row {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 page-login .login-content ion-row {
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -21768,7 +21773,9 @@ page-login .login-content ion-row {
 
 page-login .login-content ion-item {
   border-radius: 10px !important;
+  padding-left: 30px !important;
   font-size: 1em;
+  border: 1px solid #ffffff;
   border-bottom: 0px !important;
   box-shadow: none !important;
 }
@@ -21791,7 +21798,12 @@ page-login .login-content .button-md {
 }
 
 page-reset-password .reset-content {
-  background: url("../assets/images/loc2.jpg") no-repeat center center fixed !important;
+  background: url("http://www.nachosoft.esy.es/loc2.jpg") no-repeat center center fixed !important;
+}
+
+page-reset-password .reset-content .logo-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 page-reset-password .reset-content ion-row {
@@ -21804,7 +21816,9 @@ page-reset-password .reset-content ion-row {
 
 page-reset-password .reset-content ion-item {
   border-radius: 10px !important;
+  padding-left: 30px !important;
   font-size: 1em;
+  border: 1px solid #ffffff;
   border-bottom: 0px !important;
   box-shadow: none !important;
 }
@@ -21823,7 +21837,12 @@ page-reset-password .reset-content .error-message .item-inner {
 }
 
 page-sign-up .sign-content {
-  background: url("../assets/images/loc2.jpg") no-repeat center center fixed !important;
+  background: url("http://www.nachosoft.esy.es/loc2.jpg") no-repeat center center fixed !important;
+}
+
+page-sign-up .sign-content .logo-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 page-sign-up .sign-content ion-row {
@@ -21836,7 +21855,9 @@ page-sign-up .sign-content ion-row {
 
 page-sign-up .sign-content ion-item {
   border-radius: 10px !important;
+  padding-left: 30px !important;
   font-size: 1em;
+  border: 1px solid #ffffff;
   border-bottom: 0px !important;
   box-shadow: none !important;
 }
